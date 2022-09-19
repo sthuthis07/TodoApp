@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
 import TodoList from "./TodoList";
@@ -55,10 +54,6 @@ class App extends React.Component {
     });
   }
   render() {
-    let added = (event) => {
-      event.preventDefault();
-      alert("Task added");
-    };
     return (
       <div className="App">
         <header>
